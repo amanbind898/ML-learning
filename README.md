@@ -35,7 +35,7 @@ ML-learning/
 | **Day 3** | Basic Data Exploration | 🔄 | Categorical vs numeric features |
 | **Day 4** | First ML Model | ✅ | Trained Decision Tree on housing prices |
 | **Day 5** | Model Validation | ✅ | Train/test split, MAE computation |
-| **Day 6** | Underfitting & Overfitting | 📋 | Hyperparameter tuning (`max_depth`, `min_samples_leaf`) |
+| **Day 6** | Underfitting & Overfitting | ✅ | Hyperparameter tuning (`max_depth`, `min_samples_leaf`) |
 | **Day 7** | **Mini Project 1** | 📋 | Titanic survival prediction with Decision Tree |
 
 ### **Week 2: Better Models & Practice**
