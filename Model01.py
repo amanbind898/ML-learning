@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split  # For splitting data into 
 from sklearn.metrics import mean_absolute_error    # For evaluating model accuracy
 
 # 2. Load the Dataset
-path = './dataset/train.csv'   # Path to the dataset (Iowa Housing Prices dataset)
+path = './dataset/iowatrain.csv'   # Path to the dataset (Iowa Housing Prices dataset)
 home_data = pd.read_csv(path)  # Read the CSV file into a pandas DataFrame
 
 # 3. Define Target Variable (y)

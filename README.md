@@ -17,13 +17,18 @@ By the end of this 15-day program, I will master:
 ```
 ML-learning/
 ├── dataset/
-│   └── train.csv           # Iowa Housing dataset
-├── Model01.py              # First Decision Tree implementation
-├── ModelValidation.py      # Model validation with train/test split
-├── Overfit_uderfit.py      # Overfitting and underfitting practice example
-├── Supervised.md          # theory about supervised Learning
-├── README.md              # This file
-└── [Future files as I progress...]
+│   ├── train.csv                    # Iowa Housing dataset
+│   ├── test.csv                     # Test data
+│   ├── gender_submission.csv        # Sample submission format
+│   └── iowatrain.csv               # Additional training data
+├── Intro to ML/                     # Learning materials and notes
+├── Model01.py                       # First Decision Tree implementation
+├── ModelValidation.py               # Model validation with train/test split
+├── overfit_underfit.py              # Overfitting and underfitting examples
+├── random_forest.py                 # Random Forest implementation
+├── Titanic_survival_prediction_with_Decision_Tree.py  # Classification project
+├── supervised.md                    # Theory about supervised learning
+└── README.md                        # This file
 ```
 
 ## 🗓️ 15-Day Learning Plan
@@ -34,17 +39,17 @@ ML-learning/
 |-----|-------|--------|--------------|
 | **Day 1** | Pandas Fundamentals | ✅ | Data loading, `.head()`, `.describe()`, `.value_counts()` |
 | **Day 2** | How Models Work | ✅ | Built first `DecisionTreeRegressor` |
-| **Day 3** | Basic Data Exploration | 🔄 | Categorical vs numeric features |
+| **Day 3** | Basic Data Exploration | ✅ | Categorical vs numeric features |
 | **Day 4** | First ML Model | ✅ | Trained Decision Tree on housing prices |
 | **Day 5** | Model Validation | ✅ | Train/test split, MAE computation |
 | **Day 6** | Underfitting & Overfitting | ✅ | Hyperparameter tuning (`max_depth`, `min_samples_leaf`) |
-| **Day 7** | **Mini Project 1** | 📋 | Titanic survival prediction with Decision Tree |
+| **Day 7** | **Mini Project 1** | ✅ | Titanic survival prediction with Decision Tree |
 
 ### **Week 2: Better Models & Practice**
 
 | Day | Topic | Status | Key Learning |
 |-----|-------|--------|--------------|
-| **Day 8** | Random Forests | 📋 | `RandomForestRegressor` vs Decision Tree |
+| **Day 8** | Random Forests | ✅ | `RandomForestRegressor` vs Decision Tree |
 | **Day 9** | Handling Missing Values | 📋 | `SimpleImputer`, `.fillna()` |
 | **Day 10** | Categorical Data | 📋 | `pd.get_dummies()`, encoding techniques |
 | **Day 11** | ML Pipelines | 📋 | Streamlined preprocessing + modeling |
@@ -70,9 +75,30 @@ ML-learning/
 - **Evaluation Metric**: Mean Absolute Error (MAE)
 - **Key Learning**: Importance of validating on unseen data
 
+#### 3. **Overfitting & Underfitting** (`overfit_underfit.py`)
+- **Focus**: Understanding model complexity trade-offs
+- **Techniques**: Hyperparameter tuning with `max_depth` and `min_samples_leaf`
+- **Key Learning**: Finding the sweet spot between bias and variance
+
+#### 4. **Random Forest Implementation** (`random_forest.py`)
+- **Algorithm**: Random Forest Regressor
+- **Improvement**: Better performance through ensemble methods
+- **Key Learning**: How multiple trees can outperform single decision tree
+
+#### 5. **Titanic Classification Project** (`Titanic_survival_prediction_with_Decision_Tree.py`)
+- **Project Type**: Binary Classification
+- **Algorithm**: Decision Tree Classifier
+- **Dataset**: Titanic passenger data
+- **Goal**: Predict survival based on passenger features
+
+#### 6. **Supervised Learning Theory** (`supervised.md`)
+- **Content**: Comprehensive theory documentation
+- **Topics**: Supervised learning concepts, algorithms, and best practices
+- **Purpose**: Theoretical foundation for practical implementations
+
 ### 🔄 Currently Working On
-- **Day 3**: Exploring categorical vs numeric features in Titanic dataset
-- **Day 6**: Hyperparameter tuning for Decision Trees
+- **Day 9**: Handling missing values and data preprocessing
+- **Week 2**: Advanced techniques and pipeline development
 
 ## 📊 Datasets Used
 
@@ -110,14 +136,17 @@ from sklearn.pipeline import Pipeline
 ## 🎯 Upcoming Milestones
 
 ### **Week 1 Goals**
-- [ ] Complete Titanic dataset exploration
-- [ ] Implement hyperparameter tuning
-- [ ] Build first classification model
+- [x] Complete Titanic dataset exploration
+- [x] Implement hyperparameter tuning
+- [x] Build first classification model
+- [x] Master Random Forests basics
 
 ### **Week 2 Goals**
-- [ ] Master Random Forests
 - [ ] Learn data preprocessing pipelines
-- [ ] Complete 3 end-to-end projects
+- [ ] Implement cross-validation
+- [ ] Handle missing values systematically
+- [ ] Complete advanced classification techniques
+- [ ] Build end-to-end ML projects
 
 ## 🔧 How to Run
 
@@ -156,8 +185,9 @@ from sklearn.pipeline import Pipeline
 
 ### Project 1: Titanic Survival Prediction (Day 7)
 - **Goal**: Predict passenger survival using Decision Tree Classifier
-- **Status**: Planned
-- **Key Skills**: Classification, categorical data handling
+- **Status**: ✅ Completed
+- **Key Skills**: Classification, categorical data handling, feature selection
+- **Achievement**: Successfully implemented binary classification model
 
 ### Project 2: House Price Prediction End-to-End (Day 14)
 - **Goal**: Complete ML pipeline from data cleaning to model deployment
@@ -188,4 +218,4 @@ This repository serves as both a learning log and a reference for anyone startin
 
 **"The journey of a thousand models begins with a single decision tree."** 🌳
 
-*Last Updated: Day 5 of 15 | Next Milestone: Hyperparameter Tuning*
+*Last Updated: Day 8 of 15 | Next Milestone: Data Preprocessing Pipelines*
