@@ -1,4 +1,4 @@
-# 🤖 Machine Learning Journey - 15 Days to ML Mastery
+# 🤖 Machine Learning 
 
 Welcome to my comprehensive Machine Learning learning repository! This repo documents my structured 15-day journey from ML fundamentals to building real-world predictive models.
 
