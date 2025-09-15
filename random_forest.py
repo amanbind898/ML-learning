@@ -10,7 +10,7 @@ data = pd.read_csv("././dataset/iowatrain.csv")
 corr = data.corr(numeric_only=True)["SalePrice"].sort_values(ascending=False)
 print(corr.head(15))   # top positive correlations
 print(corr.tail(15))   # negative correlations
-# Features that exist in Ames dataset
+
 features = ['LotArea', 'GrLivArea', 'YearBuilt', 'FullBath', 'BedroomAbvGr', 'TotRmsAbvGrd']
 X = data[features]
 y = data.SalePrice  
