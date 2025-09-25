@@ -1,10 +1,9 @@
 # 🤖 Machine Learning 
 
-Welcome to my comprehensive Machine Learning learning repository! This repo documents my structured 15-day journey from ML fundamentals to building real-world predictive models.
+Welcome to my comprehensive Machine Learning learning repository! This repo documents ML fundamentals to building real-world predictive models.
 
 ## 🎯 Learning Objectives
 
-By the end of this 15-day program, I will master:
 - **Data Manipulation**: Pandas for data loading, cleaning, and exploration
 - **Core ML Concepts**: Supervised learning, model training, and validation
 - **Key Algorithms**: Decision Trees, Random Forests, Logistic Regression, KNN
@@ -31,36 +30,6 @@ ML-learning/
 └── README.md                        # This file
 ```
 
-## 🗓️ 15-Day Learning Plan
-
-### **Week 1: Foundations & First Models**
-
-| Day | Topic | Status | Key Learning |
-|-----|-------|--------|--------------|
-| **Day 1** | Pandas Fundamentals | ✅ | Data loading, `.head()`, `.describe()`, `.value_counts()` |
-| **Day 2** | How Models Work | ✅ | Built first `DecisionTreeRegressor` |
-| **Day 3** | Basic Data Exploration | ✅ | Categorical vs numeric features |
-| **Day 4** | First ML Model | ✅ | Trained Decision Tree on housing prices |
-| **Day 5** | Model Validation | ✅ | Train/test split, MAE computation |
-| **Day 6** | Underfitting & Overfitting | ✅ | Hyperparameter tuning (`max_depth`, `min_samples_leaf`) |
-| **Day 7** | **Mini Project 1** | ✅ | Titanic survival prediction with Decision Tree |
-
-### **Week 2: Better Models & Practice**
-
-| Day | Topic | Status | Key Learning |
-|-----|-------|--------|--------------|
-| **Day 8** | Random Forests | ✅ | `RandomForestRegressor` vs Decision Tree |
-| **Day 9** | Handling Missing Values | 📋 | `SimpleImputer`, `.fillna()` |
-| **Day 10** | Categorical Data | 📋 | `pd.get_dummies()`, encoding techniques |
-| **Day 11** | ML Pipelines | 📋 | Streamlined preprocessing + modeling |
-| **Day 12** | Cross-Validation | 📋 | `cross_val_score` for robust evaluation |
-| **Day 13** | Classification Algorithms | 📋 | KNN, Logistic Regression |
-| **Day 14** | **Mini Project 2** | 📋 | End-to-end house price prediction |
-| **Day 15** | **Final Project** | 📋 | Complete ML workflow on chosen dataset |
-
-**Legend**: ✅ Completed | 🔄 In Progress | 📋 Planned
-
-## 🚀 Current Progress
 
 ### ✅ Completed Work
 
@@ -96,9 +65,7 @@ ML-learning/
 - **Topics**: Supervised learning concepts, algorithms, and best practices
 - **Purpose**: Theoretical foundation for practical implementations
 
-### 🔄 Currently Working On
-- **Day 9**: Handling missing values and data preprocessing
-- **Week 2**: Advanced techniques and pipeline development
+
 
 ## 📊 Datasets Used
 
@@ -125,28 +92,8 @@ from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 ```
 
-## 📈 Key Metrics & Results
 
-### Model Performance Tracking
-| Model | Dataset | Metric | Score | Notes |
-|-------|---------|--------|-------|-------|
-| Decision Tree | Iowa Housing | MAE | [To be updated] | Basic model |
-| Decision Tree (Tuned) | Iowa Housing | MAE | [Pending] | With hyperparameter tuning |
 
-## 🎯 Upcoming Milestones
-
-### **Week 1 Goals**
-- [x] Complete Titanic dataset exploration
-- [x] Implement hyperparameter tuning
-- [x] Build first classification model
-- [x] Master Random Forests basics
-
-### **Week 2 Goals**
-- [ ] Learn data preprocessing pipelines
-- [ ] Implement cross-validation
-- [ ] Handle missing values systematically
-- [ ] Complete advanced classification techniques
-- [ ] Build end-to-end ML projects
 
 ## 🔧 How to Run
 
@@ -181,24 +128,6 @@ from sklearn.pipeline import Pipeline
 - Start simple, then add complexity
 - Document and comment code thoroughly
 
-## 🎉 Mini Projects
-
-### Project 1: Titanic Survival Prediction (Day 7)
-- **Goal**: Predict passenger survival using Decision Tree Classifier
-- **Status**: ✅ Completed
-- **Key Skills**: Classification, categorical data handling, feature selection
-- **Achievement**: Successfully implemented binary classification model
-
-### Project 2: House Price Prediction End-to-End (Day 14)
-- **Goal**: Complete ML pipeline from data cleaning to model deployment
-- **Status**: Planned
-- **Key Skills**: Data preprocessing, feature engineering, model comparison
-
-### Final Project: Custom Dataset Analysis (Day 15)
-- **Goal**: Apply all learned skills on a chosen dataset
-- **Options**: Iris, Stroke Prediction, Heart Disease
-- **Status**: Planned
-- **Deliverable**: Complete Kaggle notebook
 
 ## 🤝 Connect & Follow
 
@@ -218,4 +147,3 @@ This repository serves as both a learning log and a reference for anyone startin
 
 **"The journey of a thousand models begins with a single decision tree."** 🌳
 
-*Last Updated: Day 8 of 15 | Next Milestone: Data Preprocessing Pipelines*
